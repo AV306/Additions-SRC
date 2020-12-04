@@ -205,6 +205,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gun"
+    },
+    {
+      "name": "Oil",
+      "type": "fluid",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oil"
+    },
+    {
+      "name": "PlasticShard",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plastic_shard"
     }
   ],
   "variable_elements": [],
@@ -250,13 +268,16 @@
       "item.additions.gun": "Gun",
       "item.additions.calm_4.desc": "Calm4 by Notch",
       "itemGroup.tabadditions": "Additions",
+      "item.additions.plastic_shard": "Plastic Shard",
       "subtitles.gonota1": "",
       "fluid.bater": "Bater",
       "fluid.milk": "Milk",
       "item.additions.baterwucket": "Bater Wucket",
       "item.additions.bullet": "Bullet",
+      "fluid.oil": "Oil",
       "block.additions.universalslab": "Universal Slab",
-      "item.additions.calm_4": "Calm4 "
+      "item.additions.calm_4": "Calm4 ",
+      "item.additions.oil_bucket": "Oil Bucket"
     }
   },
   "workspaceSettings": {
