@@ -110,7 +110,7 @@ public class GunItem extends AdditionsModElements.ModElement {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 2.5f, 70, 5);
+					ArrowCustomEntity entityarrow = shoot(world, entity, random, 2.5f, 70, 3);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
 				}
@@ -221,7 +221,7 @@ public class GunItem extends AdditionsModElements.ModElement {
 		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 2.5f * 2, 12.0F);
 		entityarrow.setSilent(true);
 		entityarrow.setDamage(70);
-		entityarrow.setKnockbackStrength(5);
+		entityarrow.setKnockbackStrength(3);
 		entityarrow.setIsCritical(true);
 		entity.world.addEntity(entityarrow);
 		double x = entity.getPosX();

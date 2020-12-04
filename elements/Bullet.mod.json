@@ -24,7 +24,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "This is a bullet with shell."
+      "This is a bullet."
     ],
     "hasGlow": true,
     "guiBoundTo": "<NONE>",

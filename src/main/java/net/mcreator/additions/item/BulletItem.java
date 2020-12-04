@@ -61,7 +61,7 @@ public class BulletItem extends AdditionsModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("This is a bullet with shell."));
+			list.add(new StringTextComponent("This is a bullet."));
 		}
 	}
 }

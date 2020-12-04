@@ -6,12 +6,15 @@ import net.minecraftforge.items.wrapper.SidedInvWrapper;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fluids.capability.templates.FluidTank;
 import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.common.capabilities.Capability;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.World;
@@ -38,6 +41,8 @@ import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
@@ -73,10 +78,26 @@ public class FishTankBlock extends AdditionsModElements.ModElement {
 	public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
 		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("fish_tank"));
 	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public void clientLoad(FMLClientSetupEvent event) {
+		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
+	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).lightValue(0));
+			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).lightValue(0).notSolid());
 			setRegistryName("fish_tank");
+		}
+
+		@Override
+		public boolean isNormalCube(BlockState state, IBlockReader worldIn, BlockPos pos) {
+			return false;
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		public boolean isSideInvisible(BlockState state, BlockState adjacentBlockState, Direction side) {
+			return adjacentBlockState.getBlock() == this ? true : super.isSideInvisible(state, adjacentBlockState, side);
 		}
 
 		@Override
