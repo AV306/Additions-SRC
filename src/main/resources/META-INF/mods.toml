@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="additions"
+version="1.0.0"
+displayName="Additions"
+credits="Created using MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="AV3_08"
+description='''
+This generally adds stuff to Minecraft.
+'''
+
+[[dependencies.additions]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.additions]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31.2.0]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

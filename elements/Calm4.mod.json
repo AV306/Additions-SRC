@@ -1,0 +1,19 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "calm4",
+    "name": "Calm4 ",
+    "description": "Calm4 by Notch",
+    "creativeTab": {
+      "value": "CUSTOM:Additions"
+    },
+    "music": {
+      "value": "CUSTOM:calm4"
+    },
+    "specialInfo": [
+      "by Notch."
+    ],
+    "hasGlow": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "additions:block/granny"
+    },
+    "facing=east": {
+      "model": "additions:block/granny",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "additions:block/granny",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "additions:block/granny",
+      "y": 270
+    }
+  }
+}

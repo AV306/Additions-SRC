@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "additions:block/aidan_block"
+    },
+    "facing=north": {
+      "model": "additions:block/aidan_block"
+    },
+    "facing=east": {
+      "model": "additions:block/aidan_block",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "additions:block/aidan_block",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "additions:block/aidan_block",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "additions:block/aidan_block",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

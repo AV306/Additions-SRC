@@ -1,0 +1,20 @@
+{
+  "calm4": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "additions:calm4",
+        "stream": true
+      }
+    ]
+  },
+  "gonota1": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "additions:gonota-in-gb-major-by-granny",
+        "stream": true
+      }
+    ]
+  }
+}

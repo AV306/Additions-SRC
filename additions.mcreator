@@ -1,0 +1,282 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Additions",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "additions"
+    },
+    {
+      "name": "AidanGUI",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aidan_gui"
+    },
+    {
+      "name": "Granny",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "granny"
+    },
+    {
+      "name": "GrannyEssence",
+      "type": "fluid",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "granny_essence"
+    },
+    {
+      "name": "Gonota",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gonota"
+    },
+    {
+      "name": "Aidantheshhlave",
+      "type": "mob",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aidantheshhlave"
+    },
+    {
+      "name": "GrannyEntiity",
+      "type": "mob",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "granny_entiity"
+    },
+    {
+      "name": "HitByGonota",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hit_by_gonota"
+    },
+    {
+      "name": "GonotaLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gonota_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AidanBlock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aidan_block"
+    },
+    {
+      "name": "AnOverlay",
+      "type": "overlay",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "an_overlay"
+    },
+    {
+      "name": "Capsule",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "capsule"
+    },
+    {
+      "name": "Vslab",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "universalslab"
+    },
+    {
+      "name": "Calm4",
+      "type": "musicdisc",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "calm_4"
+    },
+    {
+      "name": "Bater",
+      "type": "fluid",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bater"
+    },
+    {
+      "name": "Baterwucket",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baterwucket"
+    },
+    {
+      "name": "Milk",
+      "type": "fluid",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "milk"
+    },
+    {
+      "name": "FishTank",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fish_tank"
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet"
+    },
+    {
+      "name": "GunBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gun_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gun",
+      "type": "gun",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gun"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "calm4",
+      "files": [
+        "calm4"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "gonota1",
+      "files": [
+        "gonota-in-gb-major-by-granny"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.additions.bater_bucket": "Bater Bucket",
+      "advancements.hit_by_gonota.descr": "Whee! Someone slapped you with the Gonota disc.",
+      "item.additions.gonota.desc": "Granny - Gonota in Gb Major",
+      "entity.additions.granny_entiity": "Granny",
+      "item.additions.gonota": "Gonota",
+      "item.additions.aidantheshhlave_spawn_egg": "Aidan the Shhhlave Spawn Egg",
+      "subtitles.calm4": "",
+      "entity.additions.aidantheshhlave": "Aidan the Shhhlave",
+      "fluid.granny_essence": "GrannyEssence",
+      "block.additions.capsule": "Capsule",
+      "advancements.hit_by_gonota.title": "Hit By Gonota",
+      "block.additions.aidan_block": "Aidan Block",
+      "item.additions.granny_entiity_spawn_egg": "Granny Spawn Egg",
+      "block.additions.fish_tank": "Fish Tank",
+      "item.additions.aidantheshhlave": "Aidantheshhlave Spawn Egg",
+      "subtitles.gonotaingflatmajor": "",
+      "item.additions.granny_essence_bucket": "GrannyEssence Bucket",
+      "block.additions.granny": "Granny",
+      "item.additions.milk_bucket": "Milk Bucket",
+      "item.additions.gun": "Gun",
+      "item.additions.calm_4.desc": "Calm4 by Notch",
+      "itemGroup.tabadditions": "Additions",
+      "subtitles.gonota1": "",
+      "fluid.bater": "Bater",
+      "fluid.milk": "Milk",
+      "item.additions.baterwucket": "Bater Wucket",
+      "item.additions.bullet": "Bullet",
+      "block.additions.universalslab": "Universal Slab",
+      "item.additions.calm_4": "Calm4 "
+    }
+  },
+  "workspaceSettings": {
+    "modid": "additions",
+    "modName": "Additions",
+    "version": "1.0.0",
+    "description": "This generally adds stuff to Minecraft.",
+    "author": "AV3_08",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": false,
+    "serverSideOnly": false,
+    "modPicture": "granny",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.additions",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

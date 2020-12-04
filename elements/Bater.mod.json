@@ -1,0 +1,21 @@
+{
+  "_fv": 13,
+  "_type": "fluid",
+  "definition": {
+    "name": "Bater",
+    "textureStill": "bater_wucket",
+    "textureFlowing": "bater_wucket",
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:Additions"
+    },
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
+  }
+}

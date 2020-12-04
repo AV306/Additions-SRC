@@ -1,0 +1,23 @@
+{
+  "_fv": 13,
+  "_type": "fluid",
+  "definition": {
+    "name": "GrannyEssence",
+    "textureStill": "granny",
+    "textureFlowing": "granny",
+    "luminosity": 0,
+    "density": -1000,
+    "viscosity": 1000,
+    "isGas": true,
+    "type": "LAVA",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:Additions"
+    },
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": []
+  }
+}

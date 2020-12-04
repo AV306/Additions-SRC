@@ -1,0 +1,7 @@
+{
+  "parent": "additions:custom/gun",
+  "textures": {
+    "missing": "additions:blocks/",
+    "particle": "additions:items/gun"
+  }
+}

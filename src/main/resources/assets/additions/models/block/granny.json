@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "additions:blocks/granny",
+    "up": "additions:blocks/granny",
+    "north": "additions:blocks/granny",
+    "east": "additions:blocks/granny",
+    "south": "additions:blocks/granny",
+    "west": "additions:blocks/granny",
+    "particle": "additions:blocks/granny"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "additions:block/universalslab"
+    },
+    "facing=east": {
+      "model": "additions:block/universalslab",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "additions:block/universalslab",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "additions:block/universalslab",
+      "y": 270
+    }
+  }
+}

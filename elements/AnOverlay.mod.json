@@ -1,0 +1,56 @@
+{
+  "_fv": 13,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Granny Approved",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Granny Approved",
+          "x": 15,
+          "y": 17
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "aidan.png",
+          "use1Xscale": false,
+          "name": "aidan.png",
+          "x": 402,
+          "y": 8
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "granny.png",
+          "use1Xscale": false,
+          "name": "granny.png",
+          "x": 384,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Hmmmmmmmmmm...",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Hmmmmmmmmmm...",
+          "x": 6,
+          "y": 224
+        }
+      }
+    ],
+    "baseTexture": ""
+  }
+}

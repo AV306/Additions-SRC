@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "additions:blocks/aidan",
+    "up": "additions:blocks/aidan",
+    "north": "additions:blocks/aidan",
+    "east": "additions:blocks/aidan",
+    "south": "additions:blocks/aidan",
+    "west": "additions:blocks/aidan",
+    "particle": "additions:blocks/aidan"
+  }
+}
