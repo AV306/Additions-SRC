@@ -1,0 +1,42 @@
+{
+  "group": "additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "additions:aluminium_ingot"
+    },
+    "1": {
+      "item": "additions:aluminium_ingot"
+    },
+    "2": {
+      "item": "additions:aluminium_ingot"
+    },
+    "3": {
+      "item": "additions:aluminium_ingot"
+    },
+    "4": {
+      "item": "additions:aluminium_ingot"
+    },
+    "5": {
+      "item": "additions:aluminium_ingot"
+    },
+    "6": {
+      "item": "additions:aluminium_ingot"
+    },
+    "7": {
+      "item": "additions:aluminium_ingot"
+    },
+    "8": {
+      "item": "additions:aluminium_ingot"
+    }
+  },
+  "result": {
+    "item": "additions:aluminium_block",
+    "count": 1
+  }
+}

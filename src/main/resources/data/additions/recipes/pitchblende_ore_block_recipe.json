@@ -1,0 +1,42 @@
+{
+  "group": "additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "additions:pitchblende"
+    },
+    "1": {
+      "item": "additions:pitchblende"
+    },
+    "2": {
+      "item": "additions:pitchblende"
+    },
+    "3": {
+      "item": "additions:pitchblende"
+    },
+    "4": {
+      "item": "additions:pitchblende"
+    },
+    "5": {
+      "item": "additions:pitchblende"
+    },
+    "6": {
+      "item": "additions:pitchblende"
+    },
+    "7": {
+      "item": "additions:pitchblende"
+    },
+    "8": {
+      "item": "additions:pitchblende"
+    }
+  },
+  "result": {
+    "item": "additions:pitchblende_block",
+    "count": 1
+  }
+}

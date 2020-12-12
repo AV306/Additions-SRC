@@ -20,12 +20,6 @@ This generally adds stuff to Minecraft.
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.additions]]
-    modId="forge"
-    mandatory=true
-    versionRange="[31.2.0]"
-    ordering="NONE"
-    side="BOTH"
 
 
 

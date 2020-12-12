@@ -223,6 +223,114 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "plastic_shard"
+    },
+    {
+      "name": "Pitchblende",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pitchblende"
+    },
+    {
+      "name": "PitchblendeOre",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pitchblende_ore"
+    },
+    {
+      "name": "PitchblendeBlock",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pitchblende_block"
+    },
+    {
+      "name": "PitchblendeOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pitchblende_ore_block_recipe"
+    },
+    {
+      "name": "PitchblendeBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pitchblende_block_ore_recipe"
+    },
+    {
+      "name": "PitchblendeOreSmelting",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pitchblende_ore_smelting"
+    },
+    {
+      "name": "AluminiumIngot",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aluminium_ingot"
+    },
+    {
+      "name": "AluminiumOre",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aluminium_ore"
+    },
+    {
+      "name": "AluminiumBlock",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aluminium_block"
+    },
+    {
+      "name": "AluminiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aluminium_ore_block_recipe"
+    },
+    {
+      "name": "AluminiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aluminium_block_ore_recipe"
+    },
+    {
+      "name": "AluminiumOreSmelting",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aluminium_ore_smelting"
     }
   ],
   "variable_elements": [],
@@ -269,15 +377,21 @@
       "item.additions.calm_4.desc": "Calm4 by Notch",
       "itemGroup.tabadditions": "Additions",
       "item.additions.plastic_shard": "Plastic Shard",
+      "block.additions.aluminium_block": "Block of Aluminium",
       "subtitles.gonota1": "",
       "fluid.bater": "Bater",
+      "item.additions.pitchblende": "Pitchblende",
       "fluid.milk": "Milk",
       "item.additions.baterwucket": "Bater Wucket",
+      "block.additions.pitchblende_ore": "Pitchblende Ore",
+      "item.additions.aluminium_ingot": "Aluminium",
       "item.additions.bullet": "Bullet",
       "fluid.oil": "Oil",
       "block.additions.universalslab": "Universal Slab",
+      "block.additions.aluminium_ore": "Aluminium Ore",
       "item.additions.calm_4": "Calm4 ",
-      "item.additions.oil_bucket": "Oil Bucket"
+      "item.additions.oil_bucket": "Oil Bucket",
+      "block.additions.pitchblende_block": "Block of Pitchblende"
     }
   },
   "workspaceSettings": {
@@ -287,7 +401,7 @@
     "description": "This generally adds stuff to Minecraft.",
     "author": "AV3_08",
     "websiteURL": "https://mcreator.net",
-    "disableForgeVersionCheck": false,
+    "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "granny",
     "requiredMods": [],
