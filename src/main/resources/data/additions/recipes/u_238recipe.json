@@ -1,0 +1,13 @@
+{
+  "group": "additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "additions:pitchblende"
+    }
+  ],
+  "result": {
+    "item": "additions:u_238",
+    "count": 1
+  }
+}

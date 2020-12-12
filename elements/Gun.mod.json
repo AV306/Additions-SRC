@@ -14,7 +14,7 @@
     },
     "stackSize": 1,
     "ammoItem": {
-      "value": ""
+      "value": "CUSTOM:Bullet"
     },
     "shootConstantly": false,
     "usageCount": 0,

@@ -1,0 +1,20 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Pitchblende"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:U235Item"
+    },
+    "name": "u_235_recipe",
+    "namespace": "mod"
+  }
+}

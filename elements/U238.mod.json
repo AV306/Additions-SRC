@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "pitchblende_gem",
+    "texture": "u238sheet",
     "customModelName": "Normal",
-    "name": "Pitchblende",
-    "rarity": "COMMON",
+    "name": "U-238",
+    "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:Additions"
     },
@@ -23,7 +23,9 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "Depleted Uranium."
+    ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

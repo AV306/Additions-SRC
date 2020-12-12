@@ -1,0 +1,16 @@
+{
+  "group": "additions",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "additions:u_238"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "additions:bullet",
+    "count": 4
+  }
+}

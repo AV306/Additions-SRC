@@ -26,7 +26,7 @@
     "specialInfo": [
       "This is a bullet."
     ],
-    "hasGlow": true,
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64

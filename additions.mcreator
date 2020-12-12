@@ -331,6 +331,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "aluminium_ore_smelting"
+    },
+    {
+      "name": "U235Item",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "u_235_item"
+    },
+    {
+      "name": "U238",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "u_238"
+    },
+    {
+      "name": "U238recipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "u_238recipe"
+    },
+    {
+      "name": "U235Recipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "u_235_recipe"
+    },
+    {
+      "name": "BulletR",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet_r"
     }
   ],
   "variable_elements": [],
@@ -366,7 +411,9 @@
       "block.additions.capsule": "Capsule",
       "advancements.hit_by_gonota.title": "Hit By Gonota",
       "block.additions.aidan_block": "Aidan Block",
+      "item.additions.u_238": "U-238",
       "item.additions.granny_entiity_spawn_egg": "Granny Spawn Egg",
+      "item.additions.u_235_item": "U-235 (Radioactive)",
       "block.additions.fish_tank": "Fish Tank",
       "item.additions.aidantheshhlave": "Aidantheshhlave Spawn Egg",
       "subtitles.gonotaingflatmajor": "",
