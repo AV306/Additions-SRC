@@ -448,7 +448,7 @@
     "description": "This generally adds stuff to Minecraft.",
     "author": "AV3_08",
     "websiteURL": "https://mcreator.net",
-    "disableForgeVersionCheck": true,
+    "disableForgeVersionCheck": false,
     "serverSideOnly": false,
     "modPicture": "granny",
     "requiredMods": [],
