@@ -376,6 +376,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bullet_r"
+    },
+    {
+      "name": "GunRecipie",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gun_recipie"
     }
   ],
   "variable_elements": [],

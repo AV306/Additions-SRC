@@ -1,0 +1,26 @@
+{
+  "group": "additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3  "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bow"
+    },
+    "1": {
+      "item": "minecraft:gunpowder"
+    },
+    "2": {
+      "item": "additions:aluminium_ingot"
+    },
+    "3": {
+      "item": "additions:aluminium_ingot"
+    }
+  },
+  "result": {
+    "item": "additions:gun",
+    "count": 1
+  }
+}

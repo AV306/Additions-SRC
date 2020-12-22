@@ -27,7 +27,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.additions.itemgroup.AdditionsItemGroup;
-import net.mcreator.additions.item.AluminiumIngotItem;
 import net.mcreator.additions.AdditionsModElements;
 
 import java.util.Random;
@@ -59,7 +58,7 @@ public class AluminiumOreBlock extends AdditionsModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(AluminiumIngotItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 	@Override
