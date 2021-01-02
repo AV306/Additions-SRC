@@ -2,9 +2,9 @@
   "_fv": 13,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "bullet",
-    "customModelName": "Normal",
+    "customModelName": "bullet:default",
     "name": "Bullet",
     "rarity": "COMMON",
     "creativeTab": {

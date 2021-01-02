@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "additions:custom/bullet",
   "textures": {
-    "layer0": "additions:items/bullet"
+    "missing": "additions:blocks/",
+    "particle": "additions:items/bullet"
   }
 }
