@@ -394,23 +394,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cat"
-    },
-    {
-      "name": "CatEntityIsHurt",
-      "type": "procedure",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cat_entity_is_hurt",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
     }
   ],
   "variable_elements": [],
