@@ -387,30 +387,22 @@
       "registry_name": "gun_recipie"
     },
     {
-      "name": "Cat",
+      "name": "HiddenCat",
       "type": "mob",
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cat"
+      "registry_name": "hidden_cat"
     },
     {
-      "name": "CatEntityIsHurt",
-      "type": "procedure",
+      "name": "HiddenDog",
+      "type": "mob",
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cat_entity_is_hurt",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
+      "registry_name": "hidden_dog"
     }
   ],
   "variable_elements": [],
@@ -435,6 +427,7 @@
   "language_map": {
     "en_us": {
       "item.additions.bater_bucket": "Bater Bucket",
+      "entity.additions.hidden_dog": "Hidden Dog",
       "item.additions.gonota.desc": "Granny - Gonota in Gb Major",
       "advancements.hit_by_gonota.descr": "Whee! Someone slapped you with the Gonota disc.",
       "entity.additions.granny_entiity": "Granny",
@@ -455,26 +448,27 @@
       "item.additions.granny_essence_bucket": "GrannyEssence Bucket",
       "block.additions.granny": "Granny",
       "item.additions.milk_bucket": "Milk Bucket",
-      "entity.additions.cat": "Cat",
       "item.additions.gun": "Gun",
       "item.additions.calm_4.desc": "Calm4 by Notch",
       "itemGroup.tabadditions": "Additions",
       "item.additions.plastic_shard": "Plastic Shard",
       "block.additions.aluminium_block": "Block of Aluminium",
-      "item.additions.cat_spawn_egg": "Cat Spawn Egg",
       "subtitles.gonota1": "",
       "fluid.bater": "Bater",
       "item.additions.pitchblende": "Pitchblende",
       "fluid.milk": "Milk",
       "item.additions.baterwucket": "Bater Wucket",
+      "entity.additions.hidden_cat": "Hidden Cat",
       "block.additions.pitchblende_ore": "Pitchblende Ore",
       "item.additions.aluminium_ingot": "Aluminium",
       "item.additions.bullet": "Bullet",
       "fluid.oil": "Oil",
       "block.additions.universalslab": "Universal Slab",
       "block.additions.aluminium_ore": "Aluminium Ore",
+      "item.additions.hidden_cat_spawn_egg": "Hidden Cat Spawn Egg",
       "item.additions.calm_4": "Calm4 ",
       "item.additions.oil_bucket": "Oil Bucket",
+      "item.additions.hidden_dog_spawn_egg": "Hidden Dog Spawn Egg",
       "block.additions.pitchblende_block": "Block of Pitchblende"
     }
   },

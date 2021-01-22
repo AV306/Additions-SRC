@@ -1,8 +1,8 @@
-// Made with Blockbench 3.7.4
+// Made with Blockbench 3.7.5
 // Exported for Minecraft version 1.15
 // Paste this class into your mod and generate all required imports
 
-public static class Modelcustom_model extends EntityModel<Entity> {
+public static class Modelhiddencat extends EntityModel<Entity> {
 	private final ModelRenderer body;
 	private final ModelRenderer belly;
 	private final ModelRenderer head;
@@ -13,7 +13,7 @@ public static class Modelcustom_model extends EntityModel<Entity> {
 	private final ModelRenderer frontLegL;
 	private final ModelRenderer frontLegR;
 
-	public Modelcustom_model() {
+	public Modelhiddencat() {
 		textureWidth = 64;
 		textureHeight = 32;
 
@@ -82,7 +82,7 @@ public static class Modelcustom_model extends EntityModel<Entity> {
 	public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5, Entity e) {
 		super.setRotationAngles(f, f1, f2, f3, f4, f5, e);
 		this.backLegL.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
-		this.frontLegR.rotateAngleX = MathHelper.cos(f * 0.6662F + (float) Math.PI) * f1;
+		this.frontLegR.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
 		this.backLegR.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
 		this.frontLegL.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
 	}
