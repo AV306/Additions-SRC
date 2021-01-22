@@ -387,15 +387,6 @@
       "registry_name": "gun_recipie"
     },
     {
-      "name": "HiddenCat",
-      "type": "mob",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hidden_cat"
-    },
-    {
       "name": "HiddenDog",
       "type": "mob",
       "sortid": 46,
@@ -403,6 +394,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "hidden_dog"
+    },
+    {
+      "name": "HiddenCat",
+      "type": "mob",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hidden_cat"
     }
   ],
   "variable_elements": [],
