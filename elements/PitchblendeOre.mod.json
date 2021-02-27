@@ -24,7 +24,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Pitchblende Ore",
+    "name": "Uranium Ore",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 5.0,
@@ -99,9 +99,15 @@
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.STONE#5"
+      },
+      {
+        "value": "Blocks.STONE#3"
       }
     ],
-    "frequencyPerChunks": 11,
+    "frequencyPerChunks": 15,
     "frequencyOnChunk": 7,
     "minGenerateHeight": 1,
     "maxGenerateHeight": 63

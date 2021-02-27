@@ -81,9 +81,9 @@ public static class Modelcustom_model extends EntityModel<Entity> {
 
 	public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5, Entity e) {
 		super.setRotationAngles(f, f1, f2, f3, f4, f5, e);
-		this.backLegL.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
-		this.frontLegR.rotateAngleX = MathHelper.cos(f * 0.6662F + (float) Math.PI) * f1;
-		this.backLegR.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
-		this.frontLegL.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
+		this.backLegL.rotateAngleZ = MathHelper.cos(f * 1.0F) * -1.0F * f1;
+		this.frontLegR.rotateAngleZ = MathHelper.cos(f * 1.0F) * 1.0F * f1;
+		this.backLegR.rotateAngleZ = MathHelper.cos(f * 1.0F) * 1.0F * f1;
+		this.frontLegL.rotateAngleZ = MathHelper.cos(f * 1.0F) * -1.0F * f1;
 	}
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "additions:block/pitchblende_ore",
+  "parent": "additions:block/uranium_ore",
   "display": {
     "thirdperson": {
       "rotation": [

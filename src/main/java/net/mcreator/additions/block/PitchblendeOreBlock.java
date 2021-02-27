@@ -35,7 +35,7 @@ import java.util.Collections;
 
 @AdditionsModElements.ModElement.Tag
 public class PitchblendeOreBlock extends AdditionsModElements.ModElement {
-	@ObjectHolder("additions:pitchblende_ore")
+	@ObjectHolder("additions:uranium_ore")
 	public static final Block block = null;
 	public PitchblendeOreBlock(AdditionsModElements instance) {
 		super(instance, 28);
@@ -50,7 +50,7 @@ public class PitchblendeOreBlock extends AdditionsModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 5f).lightValue(0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("pitchblende_ore");
+			setRegistryName("uranium_ore");
 		}
 
 		@Override
@@ -75,12 +75,16 @@ public class PitchblendeOreBlock extends AdditionsModElements.ModElement {
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("pitchblende_ore", "pitchblende_ore", blockAt -> {
+			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("uranium_ore", "uranium_ore", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.ANDESITE.getDefaultState().getBlock())
+					blockCriteria = true;
+				if (blockAt.getBlock() == Blocks.DIORITE.getDefaultState().getBlock())
+					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 7)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(11, 1, 1, 63))));
+			}), block.getDefaultState(), 7)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(15, 1, 1, 63))));
 		}
 	}
 }
