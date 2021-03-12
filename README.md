@@ -1,4 +1,11 @@
-# Additions-SRC
+# AdditionsMC
+
+[![HitCount](http://hits.dwyl.com/Poco-LLC/AdditionsMC.svg)](http://hits.dwyl.com/Poco-LLC/AdditionsMC)
+![GitHub All Releases](https://img.shields.io/github/downloads/Poco-LLC/AdditionsMC/total)
+![FileSize](https://img.shields.io/github/languages/code-size/Poco-LLC/AdditionsMC)
+![License](https://img.shields.io/github/license/Poco-LLC/AdditionsMC)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Poco-LLC/AdditionsMC?include_prereleases)
+
 Source for AdditionsMC Java mod!
 
 Note: everythinng below v1.3.0 is deprecated. I am drowning while trying to clean up everything aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
