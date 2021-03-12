@@ -13,11 +13,14 @@ Note: everythinng below v1.3.0 is deprecated. I am drowning while trying to clea
 
 # FAQ
 
-Q. Why doesn't ir work on a server?
+Q. Why doesn't it work on a server?
+
 A. It is client-side only. A server-side version will only be released if enough people want it.
 
 Q. Are there questions fake?
+
 A. The client-side and server-side one i real. *This* question is fake.
 
 Q. ?
+
 A. ??
